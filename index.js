@@ -33,7 +33,17 @@ var quesThree={
   answer:"February"
 }
 
-var quesBank = [quesOne,quesTwo,quesThree];
+var quesFour={
+  ques:"What is my surname? ",
+  answer:"Narula"
+}
+
+var quesFive={
+  ques:"What is my birth city name? ",
+  answer:"Bhiwani"
+}
+
+var quesBank = [quesOne,quesTwo,quesThree,quesFour,quesFive];
 
 for(var i=0; i<quesBank.length; i++){
   quiz(quesBank[i].ques,quesBank[i].answer)
@@ -43,11 +53,11 @@ for(var i=0; i<quesBank.length; i++){
 var highScores = [
   {
     name: "Hardik",
-    score: 3,
+    score: 5,
   },
   {
     name: "Rohan",
-    score: 3,
+    score: 5,
   },
 ]
 
